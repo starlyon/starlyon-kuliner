@@ -23,7 +23,7 @@ window.onscroll = () =>{
     spaceBetween: 130,
     centeredSlides: true,
     autoplay: {
-      delay: 5500,
+      delay: 2500,
       disableOnInteraction: false,
     },
     pagination: {
@@ -40,3 +40,5 @@ window.onscroll = () =>{
   function fadeOut(){
     setInterval(loader, 500);
   }
+
+  window.onload = fadeOut;
