@@ -38,7 +38,7 @@ window.onscroll = () =>{
   }
 
   function fadeOut(){
-    setInterval(loader, 200);
+    setInterval(loader, 500);
   }
 
   window.onload = fadeOut;
