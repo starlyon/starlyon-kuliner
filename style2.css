@@ -619,7 +619,7 @@ header .icons #menu-bars{
     .home .home-slider .slide .content span{
         margin-top: 0rem;
         font-size: 17px;
-        margin-left: 5%;
+        text-align: center;
     }
 
     .home .home-slider .slide .content p{
